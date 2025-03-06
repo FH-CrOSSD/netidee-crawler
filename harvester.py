@@ -12,7 +12,7 @@ from urllib.parse import parse_qs, urlparse
 import typer
 from bs4 import BeautifulSoup
 
-app = typer.Typer(rich_markup_mode="markdown",rich_help_panel=True)
+app = typer.Typer(rich_markup_mode="markdown")
 
 
 @app.command()
